@@ -8,25 +8,25 @@ class FavoCli < Formula
   # Each release file is one gzipped binary, which Homebrew unpacks by itself.
   on_macos do
     on_arm do
-      url "https://github.com/irwinarruda/favo-cli/releases/download/v0.1.1/favo-darwin-arm64.gz"
-      sha256 "65bef1eb93e627b8a0b0acf8d1a6224299dc004880b80c972f0e923f7f4378ef"
+      url "https://github.com/irwinarruda/favo-cli/releases/download/v0.1.2/favo-darwin-arm64.gz"
+      sha256 "e757571b5e54ab803217b7bda2186ef92bac36448f31c7615c8739f994bdc0c5"
     end
 
     on_intel do
-      url "https://github.com/irwinarruda/favo-cli/releases/download/v0.1.1/favo-darwin-x64.gz"
-      sha256 "ab410bd83f9eb4a2e77a1cc0a94143537a3ff20037bb947b472b90066e11c195"
+      url "https://github.com/irwinarruda/favo-cli/releases/download/v0.1.2/favo-darwin-x64.gz"
+      sha256 "d09423e45ac5e995589ffb1c330cd7d36315b96b5284e5c5df4039f4d607f5fc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/irwinarruda/favo-cli/releases/download/v0.1.1/favo-linux-arm64.gz"
-      sha256 "1e291827269a475b423f2329a31d6cea8a7404b63247cb8dcc2d249e958bf878"
+      url "https://github.com/irwinarruda/favo-cli/releases/download/v0.1.2/favo-linux-arm64.gz"
+      sha256 "fdae7f44771b5089b6113166ea0424cca1c661b6d6a2ff87904418da0f6857d1"
     end
 
     on_intel do
-      url "https://github.com/irwinarruda/favo-cli/releases/download/v0.1.1/favo-linux-x64.gz"
-      sha256 "e198dff32f0df317033b2a9691e3729f70898e0ebd76b1773d267186a01c594e"
+      url "https://github.com/irwinarruda/favo-cli/releases/download/v0.1.2/favo-linux-x64.gz"
+      sha256 "0c4fc2cc9d5b618a7c28899c4dfcc9a512fe8d9be99c61a81999997d689cc96a"
     end
   end
 
